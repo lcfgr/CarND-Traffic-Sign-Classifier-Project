@@ -1,4 +1,4 @@
-#**Traffic Sign Recognition** 
+# **Traffic Sign Recognition** 
 
 
 ## Writeup Template
@@ -33,7 +33,7 @@ The goals / steps of this project are the following:
 [image10]: ./writeup/sample_sign4.png "Traffic Sign 4"
 [image11]: ./writeup/sample_sign5.png "Traffic Sign 5"
 ## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
+### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
 ---
 ### Writeup / README
@@ -117,7 +117,7 @@ My final model consisted of the following layers:
 
 
 | Layer         				   	|     Description	        					|
-|-----------------|-------------|---------------------------------------------|
+|-------------------------------|---------------------------------------------|
 | Input         	|				| 32x32x3 RGB image   							|
 | Convolution 1 5x5 | 		 		| 1x1 stride, valid padding, outputs 28x28x80 	|
 | RELU 1			|				|	   											|
@@ -193,12 +193,14 @@ The code for making predictions on my final model is located in the **22th** cel
 Here are the results of the prediction:  
 
 
-| Image			  	     						|     Prediction	        					|  |---------------------------------------------|---------------------------------------------|
-| End of all speed and passing limits      		| End of all speed and passing limits   		|
-| No entry     									| No entry										|
-| Priority road									| Priority road									|
-| Right-of-way at the next intersection      	| Right-of-way at the next intersection			|
-| Stop											| Stop      									|
+ Image			  	     						|     Prediction
+ --------------------------------------------|----------------------------------------
+ 
+ End of all speed and passing limits      		| End of all speed and passing limits   		
+ No entry     									| No entry										
+ Priority road									| Priority road									
+ Right-of-way at the next intersection      	| Right-of-way at the next intersection			
+ Stop											| Stop      									
 
 
 The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 95.4% . However the particular signs are relatively good images. 
@@ -206,6 +208,8 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction and identify where in your code softmax probabilities were outputted. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for the softmax probabilities is located in the **23rd** cell of the Ipython notebook.
+
+The first image propabilities:
 
 
 | Probability         	|     Prediction	        					|
@@ -217,7 +221,7 @@ The code for the softmax probabilities is located in the **23rd** cell of the Ip
 | 0					    | Road work      								|
 
 
-For the second image ... 
+The second image propabilities:
 
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
