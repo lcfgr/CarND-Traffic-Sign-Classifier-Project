@@ -182,6 +182,7 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image10]
 ![alt text][image11]
 
+These traffic signs are relatively easy to classify, since there are no objects in front of them and the lighting is good. However all of the images have different camera angles and the original resolutions of the images are not always squared (this can be seen more clearly in the latest, stop sign which seems distorted also in the naked eye). We expect relatively good results.
 
 #### 2. The submission documents the performance of the model when tested on the captured images. The performance on the new images is compared to the accuracy results of the test set.
 
