@@ -115,8 +115,9 @@ The code for my final model is located in the ** 13th** cell of the ipython note
 
 My final model consisted of the following layers:
 
+
 | Layer         				   	|     Description	        					|
-|:-----------------:|:-------------:|:---------------------------------------------:|
+|-----------------|-------------|---------------------------------------------|
 | Input         	|				| 32x32x3 RGB image   							|
 | Convolution 1 5x5 | 		 		| 1x1 stride, valid padding, outputs 28x28x80 	|
 | RELU 1			|				|	   											|
@@ -192,7 +193,7 @@ The code for making predictions on my final model is located in the **22th** cel
 Here are the results of the prediction:  
 
 
-| Image			  	     						|     Prediction	        					|  |:---------------------------------------------:|:---------------------------------------------:|
+| Image			  	     						|     Prediction	        					|  |---------------------------------------------|---------------------------------------------|
 | End of all speed and passing limits      		| End of all speed and passing limits   		|
 | No entry     									| No entry										|
 | Priority road									| Priority road									|
