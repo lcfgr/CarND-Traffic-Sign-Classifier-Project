@@ -192,8 +192,7 @@ The code for making predictions on my final model is located in the **22th** cel
 
 Here are the results of the prediction:  
 
-
- Image			  	     						|     Prediction
+Image|Prediction
  --------------------------------------------|-------------------------------------- 
  End of all speed and passing limits      		| End of all speed and passing limits   		
  No entry     									| No entry										
