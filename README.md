@@ -7,7 +7,7 @@ In this project, you will use what you've learned about deep neural networks and
 
 We have included an Ipython notebook that contains further instructions 
 and starter code. 
-You can watch the [Ipython notebook] (https://lcfgr.github.io/CarND-Traffic-Sign-Classifier-Project/Traffic_Sign_Classifier.html) in htlm directly, or you can download it [here](https://github.com/lcfgr/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb). 
+You can watch the [Ipython notebook](https://lcfgr.github.io/CarND-Traffic-Sign-Classifier-Project/Traffic_Sign_Classifier.html) in htlm directly, or you can download it [here](https://github.com/lcfgr/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb). 
 
 
 
