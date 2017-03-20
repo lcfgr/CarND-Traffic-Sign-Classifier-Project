@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./writeup/original_distribution.png "data class distribution"
-[image2]: ./writeup/nopassing3.5_proc "Example1"
+[image2]: ./writeup/nopassing3.5_proc.png "Example1"
 [image3]: ./writeup/speed100_proc.png "Example2"
 [image4]: ./writeup/balanced_distribution.png "balanced data class distribution"
 [image5]: ./writeup/Speed70_aug.png "Augmented Example1"
@@ -116,7 +116,7 @@ The code for my final model is located in the ** 13th** cell of the ipython note
 My final model consisted of the following layers:
 
 | Layer         				   	|     Description	        					|
-|:---------------------------------:|:---------------------------------------------:|
+|:-----------------:|:-------------:|:---------------------------------------------:|
 | Input         	|				| 32x32x3 RGB image   							|
 | Convolution 1 5x5 | 		 		| 1x1 stride, valid padding, outputs 28x28x80 	|
 | RELU 1			|				|	   											|
@@ -189,14 +189,16 @@ Here are five German traffic signs that I found on the web:
 The code for making predictions on my final model is located in the **22th** cell of the Ipython notebook.
 
 
-Here are the results of the prediction:
+Here are the results of the prediction:  
 
-| Image			        						|     Prediction	        					| |:---------------------------------------------:|:---------------------------------------------:|
+
+| Image			  	     						|     Prediction	        					|  |:---------------------------------------------:|:---------------------------------------------:|
 | End of all speed and passing limits      		| End of all speed and passing limits   		|
 | No entry     									| No entry										|
 | Priority road									| Priority road									|
 | Right-of-way at the next intersection      	| Right-of-way at the next intersection			|
 | Stop											| Stop      									|
+
 
 The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 95.4% . However the particular signs are relatively good images. 
 
