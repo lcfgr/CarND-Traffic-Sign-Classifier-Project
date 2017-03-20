@@ -1,0 +1,2 @@
+model_checkpoint_path: "LampNet.ckpt"
+all_model_checkpoint_paths: "LampNet.ckpt"
