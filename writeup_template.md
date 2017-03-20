@@ -194,8 +194,7 @@ Here are the results of the prediction:
 
 
  Image			  	     						|     Prediction
- --------------------------------------------|----------------------------------------
- 
+ --------------------------------------------|-------------------------------------- 
  End of all speed and passing limits      		| End of all speed and passing limits   		
  No entry     									| No entry										
  Priority road									| Priority road									
